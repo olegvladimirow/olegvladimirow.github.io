@@ -1,0 +1,295 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* body style */
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    }
+.content {
+    display: block;
+    margin: 20px 20%;
+    min-width: 60%;
+    min-height: 100%;
+}
+.cite {
+    border: 1px solid black;
+    display: block;
+    min-width: 800px;
+    margin: 0 auto;
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+a {
+    text-decoration: none;
+}
+
+
+/* font-family: 'Source Sans Pro', sans-serif; */
+/* Header style */
+
+
+.header {
+    border-bottom: 1px solid black;
+    min-width: 800px;
+    height: 70px;
+    margin: 0 auto;
+    background: black;
+    text-align: center;
+    }
+.header-logo {
+    float: left;
+    height: 100%;
+    width: 20%;
+}
+.header-logo img {
+    width: 50px;
+    margin: 10px;
+}
+.navigation-header {
+    border: 1px solid black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    width: 80%;
+    height: 50%;
+}
+.navigation-header li {
+    display: inline-block;
+    padding: 8px 8px;
+}
+.navigation-link {
+    text-decoration: none;
+    color: white;
+}
+.navigation-link:hover {
+    color: sienna;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+.title-header {
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    width: 80%;
+    height: 50%;
+    line-height: 33px;
+} 
+
+
+/* wrapper style */
+
+
+.wrapper {
+    min-width: 800px;
+    min-height: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin: 20px;
+    }
+.wrapper-block2 {
+    float: left;
+    width: 60%;
+    height: 100%;
+    padding: 0 20px;
+    margin-left: 20%;
+    border: 1px solid silver;
+    text-align: justify;
+    white-space: pre-line;
+    margin-top: 0;
+}
+.wrapper-block2-title {
+    float: left;
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-weight: lighter;
+}
+.wrapper-block2-text {
+    float: left;
+}
+
+/* footer */
+
+.footer {
+    height: 70px;
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: lighter;
+    background-color: black;
+    overflow: hidden;
+}
+.footer-social-button-image {
+    width: 25px;
+    padding: 7px 7px;
+}
+.footer-social-button-image:hover {
+    width: 30px;
+    padding: 2px 0;
+    transition: 0.5s;
+}
+.footer-social-button {
+    height: 50%;
+}
+.footer-link {
+    height: 50%;
+    line-height: 30px;
+}
+.footer-link-text {
+    color: white;
+}
+
+/* home style */
+
+.home-content {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.home-content-prices {
+    width: 49%;
+    height: 99%;
+    margin: 0 auto;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    white-space: pre-line;
+}
+.prices-left {
+    float: left;
+}
+.prices-left:hover {
+    border: 1px solid silver;
+}
+.prices-right {
+    float: right;
+}
+.prices-right:hover {
+    border: 1px solid silver;
+}
+.img-prices {
+    display: inline-block;
+    width: 120px;
+    margin: 5px;
+}
+.price-desc {
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 90%;
+    margin: 2px 5px;
+}
+.price-cost {
+    margin: 2px;
+}
+.home-content-bottom {
+    min-height: 300px;
+    box-sizing: content-box;
+}
+.home-content-article {
+    height: 100px;
+    border-bottom: 1px solid silver;
+}
+.home-content-article:hover {
+    border: 1px solid silver;
+}
+.article-img {
+    margin: 10px;
+    height: 80px;
+    display: inline-block;
+}
+.article-img-container {
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.article-desc {
+    display: inline-block;
+    float: right;
+    width: 75%;
+    height: 65%;
+    line-height: 25px;
+    padding: 2% 10px;
+    text-align: justify;
+}
+
+
+/* prices content style */
+.price-content {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.prices-content-prices {
+    width: 30%;
+    height: 99%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+}
+.prices-content-prices:hover {
+    border: 1px solid silver;
+}
+
+/*contacts-content*/
+
+.contacts-content {
+    min-height: 500px;
+    white-space: pre-line;
+    text-align: center;
+    line-height: 25px;
+}
+.contacts-content-title {
+    font-size: 20px;
+    text-align: center;
+}
+.contacts-content-text {
+    font-weight: lighter;
+}
